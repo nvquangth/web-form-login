@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        .content {
+            width: 100%;
+        }
+
+        .form-login {
+            width: 25%;
+            margin: 0 auto;
+            background-color: aqua;
+        }
+
+        .form-login__head {
+            text-align: center;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .form-login__body__input {
+            width: calc(100% - 10px);
+            height: 32px;
+            padding: 0px 4px;
+            border: none;
+            outline: none;
+            border: 1px solid #000;
+            display: table;
+        }
+
+        .form-login__body__forgot-password,
+        .form-login__body__new-account {
+            text-align: right;
+        }
+
+        .form-login__body__forgot-password:hover {
+            cursor: pointer;
+        }
+
+        .form-login__body__signup {
+            text-decoration: none;
+        }
+
+        .form-login__body__another-title-login {
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .form-login__body__button-login,
+        .form-login__body__button-login-via-fb {
+            width: 100%;
+            height: 44px;
+            color: #FFF;
+            padding: 0;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .form-login__body__button-login {
+            background-color: #1b7cff;
+            border-radius: 2px;
+        }
+
+        .form-login__body__button-login:hover{
+            background-color: #0656c3;
+        }
+
+        .form-login__body__button-login-via-fb {
+            background-color: #266ea3;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="form-login">
+            <h1 class="form-login__head">Login</h1>
+
+            <form class="form-login__body">
+                <p class="form-login__body__title">Nhập email:</p>
+                <input class="form-login__body__input" type="text" placeholder="Vui lòng nhập email" />
+
+                <p class="form-login__body__title">Nhập mật khẩu:</p>
+                <input class="form-login__body__input" type="password" placeholder="Vui lòng nhập mật khẩu:" />
+
+                <p class="form-login__body__forgot-password"><a>Bạn quên mật khẩu</a></p>
+                <p class="form-login__body__new-account">Create an account? <a href="#"
+                        class="form-login__body__signup">Sign up</a></p>
+
+                <input class="form-login__body__button-login" type="button" value="Login" />
+
+                <p class="form-login__body__another-title-login">Or Login</p>
+
+                <input class="form-login__body__button-login-via-fb" type="button" value="Login With Facebook">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
