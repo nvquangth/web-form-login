@@ -1,0 +1,69 @@
+.content {
+    width: 100%;
+}
+
+.form-login {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.form-login__head {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+
+.form-login__body__input {
+    width: calc(100% - 10px);
+    height: 32px;
+    padding: 0px 4px;
+    border: none;
+    outline: none;
+    border: 1px solid #000;
+    display: table;
+}
+
+.form-login__body__forgot-password,
+.form-login__body__new-account {
+    text-align: right;
+}
+
+.form-login__body__forgot-password:hover {
+    cursor: pointer;
+}
+
+.form-login__body__signup {
+    text-decoration: none;
+}
+
+.form-login__body__another-title-login {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-login__body__button-login,
+.form-login__body__button-login-via-fb {
+    width: 100%;
+    height: 44px;
+    color: #FFF;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-login__body__button-login {
+    background-color: #1b7cff;
+    border-radius: 2px;
+}
+
+.form-login__body__button-login:hover{
+    background-color: #0656c3;
+}
+
+.form-login__body__button-login-via-fb {
+    background-color: #266ea3;
+    border-radius: 5px;
+}
